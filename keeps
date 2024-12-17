@@ -1,0 +1,25 @@
+        <div class="entry__meta">
+          <h6>Personal Projects<span></span></h6>
+          <h4>Check Out My Works</h4>
+
+         
+        </div>
+      </div>
+    </section>
+    
+    <section class="site-section" id="blog">
+      <div class="entry">
+        <div class="entry__meta">
+          <h6>I'm a writer too<span></span></h6>
+          
+          
+          
+          <section class="site-section" id="contact">
+            <div class="entry">
+              <div class="entry__meta">
+                <h6>Contact<span></span></h6>
+                <h4>Check Out My Articles</h4>
+                
+              </div>
+            </div>
+          </section>

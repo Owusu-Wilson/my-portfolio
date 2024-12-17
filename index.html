@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Owusu Wilson</title>
+
+  <!-- Tailiwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Reset -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+
+  <!-- Fontawesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&family=Poppins:wght@700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="video-container">
+    <video autoplay loop muted playsinline>
+      <source src="videos/video-2@c.mp4" type="video/mp4" />
+      <!-- Add other video sources here if needed for cross-browser compatibility -->
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <section id="hero">
+    <header>
+      <a href="#"><img src="images/logo-illustrator.svg" alt="logo-illustrator" /></a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Works</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <li><a id="hire-btn" href="#">Hire Me</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero__content">
+      <h1><span id="changing-text">Software Developer</span></h1>
+      <h3>Owusu Komla Wilson (theITGuy)</h3>
+      <h3>I engineer beautiful data web applications</h3>
+      <ul class="social-links">
+        <li>
+          <a href="https://github.com/Owusu-Wilson"><i class="fab fa-github"></i></a>
+        </li>
+
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://gh.linkedin.com/in/wilson-owusu"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="https://www.behance.net/oqouwbee"><i class="fab fa-behance"></i></a>
+        </li>
+        <li>
+          <a href="https://slabsgh.medium.com/"><i class="fab fa-medium"></i></a>
+        </li>
+        <li>
+          <a href="mailto:owusuwilson980@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <svg id="scroll-icon" width="40" height="56" viewBox="0 0 40 56" fill="none">
+      <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color: rgb(255, 255, 255); stop-opacity: 0" />
+          <stop offset="100%" style="stop-color: rgb(0, 0, 0); stop-opacity: 1" />
+        </linearGradient>
+      </defs>
+      <rect x="0.5" y="0.5" width="39" height="55" rx="19.5" stroke="url(#grad)" />
+      <path d="M20 37V19M24 33L20 37L24 33ZM20 37L16 33L20 37Z" stroke="url(#grad)" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </section>
+
+  <section class="about-section" id="about">
+    <h4>About Me</h4>
+    <div class="about-entry">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aut
+        provident iure nam magnam nemo accusantium illo, sequi itaque vel
+        explicabo exercitationem animi accusamus. Quas, sequi accusamus. Id,
+        earum laudantium. Reprehenderit, ullam fugiat assumenda odio alias
+        accusamus. Ducimus, possimus sapiente quasi pariatur quod deserunt
+        deleniti? Eveniet ipsam eaque quas dolorem nobis, quaerat nemo sit
+        rerum, quibusdam assumenda odit veritatis modi? Illo distinctio
+        voluptatibus sequi, odit non laboriosam doloremque obcaecati
+        recusandae.
+      </p>
+      <img src="images/wilson.png" alt="Profile Image" />
+    </div>
+  </section>
+  
+
+  <section class="site-section" id="portfolio">
+    <h4>Personal Projects</h4>
+    <div class="entry">/
+
+      <div class="portfolio-list">
+        <div>
+          <h6>Fullstack Web ( ReactJS + ExpressJS ) <span></span></h6>
+          <h3>Sentiment Analysis Web Application</h3>
+          <div class="portfolio-content">
+            <img src="images/projects/proj1.png" alt="Sentiment Analysis">
+          <!-- <img src="images/gallery-2.jpg" alt="Thesis Versioning Software"> -->
+  
+          </div>
+        </div>
+        <div >
+        <h6>Data Science ( Python + Pandas + Streamlit ) <span></span></h6>
+        <h3>ASHMA Basic School Perfomance Dashboard</h3>
+      </div>
+      <div >
+        <h6>Python + FastAPI <span></span></h6>
+        <h3>Tertiary Institutions API</h3>
+      </div>
+      <div >
+        <h6>Fullstack ( PHP + Laravel + React ) <span></span></h6>
+        <h3>Track My Thesis</h3>
+        <div class="portfolio-content">
+       
+        <!-- <img src="images/gallery-2.jpg" alt="Thesis Versioning Software"> -->
+    <iframe 
+frameborder="0" 
+src="https://mega.nz/embed/wrBXhLSY#kC9Z0eKLLTnxLgCDhDAAjVWSPnXHXRNO3BK00UDb9iI" 
+width="1920px" 
+height="1280px" 
+allowfullscreen 
+scrolling="no" 
+
+>
+</iframe>
+        </div>
+      </div>
+      <div >
+        <h6>Machine Learning, Cyber Security ( Python + Maths ) <span></span></h6>
+        <h3>Network Security Model</h3>
+      </div>
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+  <section class="site-section" id="blog">
+    <h4>I write too</h4>
+    <div class="entry">
+
+      <div>
+        <h6>Down to earth <span></span></h6>
+        <h6>Tools for Software developers <span></span></h6>
+        <h6>My hacking journey <span></span></h6>
+
+
+      </div>
+
+    </div>
+
+  </section>
+  <section class="site-section" id="contact">
+    <h4>Lets get in touch</h4>
+    <div class="entry">
+
+      <div class="contat-card">
+        <h1 class="card-heading">Telephone</h1>
+        <h3 class="card-content">+233 24 000 0000</h3>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <footer>
+    <h6>Lets get some work done</h6>
+
+    <div class="footer__content">
+      <h2>Let's create something amazing together</h2>
+      <button class="btn">
+        Tell me about your project
+        <svg width="25" height="24" viewBox="0 0 25 24" fill="none">
+          <path d="M21.5 12H3.5M17.5 8L21.5 12L17.5 8ZM21.5 12L17.5 16L21.5 12Z" stroke="white" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <ul class="social-links">
+        <li><a href="#">FB</a></li>
+        <li><a href="#">IG</a></li>
+        <li><a href="#">LI</a></li>
+        <li><a href="#">X</a></li>
+        <li><a href="#">YT</a></li>
+      </ul>
+    </div>
+
+    <nav id="nav" class="nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Works</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2024 Owusu Wilson. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+  <script>
+    // Air
+  </script>
+  <!-- <script src="script.js"></script> -->
+  <script src="scripts/text-animation.js"></script>
+  <script src="scripts/pop-navigation.js"></script>
+</body>
+
+</html>
